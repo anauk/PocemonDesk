@@ -5,7 +5,7 @@ import cn from 'classnames'
 
 const App = () => {
     return (
-        <div className={s.header + ' color'}>
+        <div className={cn(s.header, 'color')}>
             <h1 >App? Hello</h1>
         </div>
     )
